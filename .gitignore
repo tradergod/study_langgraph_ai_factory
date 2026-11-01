@@ -1,0 +1,31 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+*.env.local
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & LangGraph
+__pycache__/
+*.py[cod]
+*$py.class
+.langgraph_api/
+.langgraph_ops.pckl
+
+# Vendor & IDE
+.idea/
+.vscode/
+NVIDIA Corporation/
+*.log
+
+# Compressed files
+*.zip
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
